@@ -37,10 +37,41 @@ nav a{
     gap: 20px;
 }
 
-.overview-hero-image{
-    flex: 1;
+.overview-hero-image img{
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
 }
 
 .overview-hero--text{
     flex: 1;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    text-align: center;
+}
+
+.card img {
+    width: 100%; 
+    height: auto;
+    border-radius: 8px 8px 0 0; 
+}
+
+.card h3 {
+    margin: 15px 0 10px; 
+}
+
+.card-body {
+    font-size: 14px; 
+    color: #555;
 }
