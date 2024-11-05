@@ -9,3 +9,38 @@ body {
     max-width: 960px;
     width: 100%;
 }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    gap : 10px;
+}
+
+nav li{
+    display: inline;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+.overview-hero{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.overview-hero-image{
+    flex: 1;
+}
+
+.overview-hero--text{
+    flex: 1;
+}
