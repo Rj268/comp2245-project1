@@ -11,31 +11,23 @@ body {
     width: 100%;
 }
 
-.header-container {
+header .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-}
-
-header{
+    margin: 0 auto;
     padding: 30px;
-    background-color: #f8f9fa;
-}
-
-header h1{
-    margin: 0;
 }
 
 header nav{
     font-size: 18px;
-    margin-left: auto;
 }
-nav ul{
+header nav ul{
     list-style-type: none;
     display: flex;
     gap : 10px;
     margin: 0;
+    padding: 0;
 }
 
 nav li{
@@ -121,13 +113,11 @@ nav a:hover{
    color: white;
    padding: 20px;
    border-radius: 5px;
-   margin-top: 20px;
+   margin: 0 auto;
    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    margin-top: 20px;
-    max-width: 1100px;
+   justify-content: space-between;
+   align-items: center;
+   max-width: 1100px;
 }
 
 .testing h2, .testing p {
@@ -143,10 +133,8 @@ nav a:hover{
 }
 
 .testing-description {
-    max-width: 70%; 
-}
-.testing .btn{
-    float: right;
+    max-width: 20%; 
+    margin: 0;
 }
 
 .cta {
@@ -163,6 +151,7 @@ nav a:hover{
     border-radius: 5px;
     border: none;
     cursor: pointer;
+
 }
 
 .cta .btn:hover {
@@ -206,10 +195,6 @@ nav a:hover{
     margin-bottom: 10px; 
 }
 
-.article-body a {
-    color: #007BFF; 
-    text-decoration: none;
-}
 
 .article-body a:hover {
     text-decoration: underline; 
