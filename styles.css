@@ -15,8 +15,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 30px;
     background-color: white;
+    background-color: #f8f9fa;
 
 }
 
@@ -37,6 +38,7 @@ nav li{
 nav a{
     text-decoration: none;
     color: #6b7280;
+    padding: 10px;
 }
 
 nav a:hover{
@@ -102,10 +104,29 @@ nav a:hover{
    color: white;
    padding: 20px;
    border-radius: 5px;
+   margin-top: 20px;
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .testing h2, .testing p {
     color: white;
+}
+
+.testing p {
+    margin: 0; 
+}
+
+.testing h2{
+    margin: 0 0 10px 0;
+}
+
+.testing-description {
+    max-width: 70%; 
+}
+.testing .btn{
+    float: right;
 }
 
 .cta {
@@ -128,7 +149,7 @@ nav a:hover{
     background-color: #3a9c63; 
 }
 .stories {
-    margin-top: 40px; /* Add spacing above the section */
+    margin-top: 40px; 
 }
 
 .stories h2 {
@@ -139,9 +160,9 @@ nav a:hover{
 
 .stories article {
     display: flex;
-    gap: 20px; /* Space between the image and text */
-    margin-bottom: 30px; /* Space between articles */
-    align-items: flex-start; /* Align items at the top */
+    gap: 20px; 
+    margin-bottom: 30px; 
+    align-items: flex-start; 
 }
 
 .article-body h3 {
@@ -164,27 +185,37 @@ nav a:hover{
 }
 
 .article-body h3 {
-    margin-top: 0; /* Removes default margin */
-    margin-bottom: 10px; /* Adds spacing below heading */
+    margin-top: 0; 
+    margin-bottom: 10px; 
 }
 
 .article-body p {
-    margin-bottom: 10px; /* Adds spacing between paragraphs */
+    margin-bottom: 10px; 
 }
 
 .article-body a {
-    color: #007BFF; /* Link color */
+    color: #007BFF; 
     text-decoration: none;
 }
 
 .article-body a:hover {
-    text-decoration: underline; /* Adds underline on hover */
+    text-decoration: underline; 
 }
 .newsletter {
     text-align: center;
-    padding: 30px 20px;
+    padding: 40px 20px;
     background-color: #48bb78; 
     color: white;
+    border-radius: 10px;
+}
+
+.newsletter h3{
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.newsletter p {
+    margin-bottom: 20px;
 }
 .newsletter h3, .newsletter p {
     color: white;
@@ -193,8 +224,8 @@ nav a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px; /* Space between the input and button */
-    margin-top: 15px; /* Space above the input and button */
+    gap: 10px; 
+    margin-top: 15px; 
 }
 
 .newsletter input[type="email"] {
@@ -211,6 +242,7 @@ nav a:hover{
     color: #fff;
     border: none;
     border-radius: 5px;
+    padding: 10px 20px;
     cursor: pointer;
     text-decoration: none;
 }
@@ -222,6 +254,5 @@ nav a:hover{
 footer {
     background-color: #4A5568;
     color: white; 
-    text-align: center;
     padding: 15px 20px; 
 }
